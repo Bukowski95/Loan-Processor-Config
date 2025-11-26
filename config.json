@@ -1,0 +1,41 @@
+{
+  "repository": {
+    "owner": "Bukowski95",
+    "name": "Loan-Processor-Config",
+    "file_count": 6
+  },
+  "timestamp": "2025-11-26T15:26:29.265151",
+  "summary": {
+    "total_risks": 3,
+    "by_severity": {
+      "low": 2,
+      "critical": 1
+    },
+    "by_type": {
+      "missing_readme": 1,
+      "missing_license": 1,
+      "exposed_credentials": 1
+    }
+  },
+  "risks": [
+    {
+      "type": "missing_readme",
+      "severity": "low",
+      "message": "No README file found",
+      "details": "README files help others understand your project"
+    },
+    {
+      "type": "missing_license",
+      "severity": "low",
+      "message": "No license found",
+      "details": "Adding a license clarifies how others can use your code"
+    },
+    {
+      "type": "exposed_credentials",
+      "severity": "critical",
+      "message": "Exposed AWS Access Key detected",
+      "file": "not_a_key.conf:1",
+      "details": "Found AWS Access Key: AKIA...MPLE"
+    }
+  ]
+}
