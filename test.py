@@ -1,2 +1,2 @@
-DB_USERNAME = 'postgres'
-DB_PASSWORD = 'postgres'
+DB_URL = "postgres://myuser:supersecretpassword@db.example.com/production"
+
